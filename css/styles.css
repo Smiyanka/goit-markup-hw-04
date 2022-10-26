@@ -371,11 +371,12 @@ background-color: var(--text-color)
    background-color: var(--hero-title-color); 
    border: 1px solid #AFB1B8;
    border-radius: 4px;
+   fill: #AFB1B8;
 }
 
 .link-client:hover .client-icon,
 .link-client:focus .client-icon{
-   Fill: #2196F3;
+   fill: #2196F3;
    border: 1px solid #2196F3;
    width: 170px;
    height: 92px;
