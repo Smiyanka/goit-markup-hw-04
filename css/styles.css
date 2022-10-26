@@ -65,7 +65,6 @@ cursor: pointer;
 }
 
 .list-client li {
-   
    list-style: none;
    align-items: center;
    flex-wrap: wrap;
@@ -73,8 +72,8 @@ cursor: pointer;
 
 .list-client {
    display: flex;
-   max-width: 1200;
    flex-wrap: wrap;
+   align-items: center;
    gap: 30px;
  }
 
@@ -90,6 +89,8 @@ cursor: pointer;
    margin-bottom: 34px;
    }
 .client-roster:hover {
+   display: block;
+   width: 370px;
    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) ;
 }
  
@@ -136,8 +137,8 @@ cursor: pointer;
    fill: #757575;
 }
 
-.contacts-phone:hover
-.contacts-phone: focus{
+.contacts-phone:hover,
+.contacts-phone:focus{
    fill: var(--hero-background-hover-color);
 }
 
@@ -248,6 +249,7 @@ gap: 30px;
    color: var(--text-color);
    font-size: 16px;
    line-height: 1.88;
+   margin: 0;
    
 }
 
