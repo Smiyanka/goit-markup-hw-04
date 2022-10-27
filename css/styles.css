@@ -336,15 +336,15 @@ height: 20px;
    width: 20px;
    height: 20px;
    }
-}
+
 
 .footer-network {
-   color: var(--hero-title-color);
+   color:var(--logo-light-color);
    text-transform: uppercase;
    font-style: inherit;
-font-weight: 700px;
-font-size: 14px;
-line-height: 1.17;}
+   font-weight: 700px;
+   font-size: 14px;
+   line-height: 1.17;}
 
 .link-icon{
 margin: 0;
