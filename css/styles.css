@@ -91,6 +91,7 @@ cursor: pointer;
 .client-portfolio {
    padding: 22px 24px;
    border: 1px solid #eeeeee;
+   border-top: none;
 }
 
 .section-buttons {
@@ -99,12 +100,21 @@ cursor: pointer;
    justify-content: center;
    margin-bottom: 34px;
    }
-.client-roster:hover {
-   display: block;
+.client-roster:hover,
+.client-roster:focus {
    width: 370px;
+   
+}
+
+.portfolio-link {
+   display: block;
+}
+
+.portfolio-link:hover,
+.portfolio-link:focus {
    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) ;
 }
- 
+
 /* site navigation */
 
 .logo {
@@ -322,15 +332,19 @@ height: 20px;
    padding: 0;
 }
 .icon-network {
+   fill: var(--hero-title-color);
    width: 20px;
    height: 20px;
-   fill: #AFB1B8;
+   }
 }
 
 .footer-network {
    color: var(--hero-title-color);
    text-transform: uppercase;
-}
+   font-style: inherit;
+font-weight: 700px;
+font-size: 14px;
+line-height: 1.17;}
 
 .link-icon{
 margin: 0;
@@ -342,18 +356,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 border-radius: 50%;
-   background-color:rgba(255, 255, 255, 0.1);
-}
-
-.button-network {
-align-items: center;
-margin: 12px;
-padding: 2px;
-border: none;
-width: 44px;
-height: 44px;
-border-radius: 50%;
-background-color: var(--text-color)
+background-color:rgba(255, 255, 255, 0.1);
 }
 
 .section-client {
@@ -411,24 +414,16 @@ background-color: var(--text-color)
 
 .link-icon:hover .icon,
 .link-icon:focus .icon{
-   Fill: #ffffff;
+   fill: #ffffff;
    background-color: var(--accent-color);
    border: 1px solid #2196F3;
    width: 20px;
    height:20px;
-
 }
 
 .link-icon:hover ,
 .link-icon:focus {
    background-color: var(--accent-color);
-   border: 1px solid #2196F3;
-   width: 44px;
-   height:44px;
-   border-radius: 50%;
-   display: flex;
-   align-items: center;
-   justify-content: center;
 }
 
 .section-title-client {
@@ -451,6 +446,7 @@ background-color: var(--text-color)
    font-weight: 500;
    padding: 32px 0;
    color: inherit;
+   align-items: center;
 }
 
 .button-filter:focus,
