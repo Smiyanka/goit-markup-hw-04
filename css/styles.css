@@ -342,7 +342,7 @@ height: 20px;
    color:var(--logo-light-color);
    text-transform: uppercase;
    font-style: inherit;
-   font-weight: 700px;
+   font-weight: 700;
    font-size: 14px;
    line-height: 1.17;}
 
@@ -639,5 +639,5 @@ gap: 70px;
 }
 
 .footer-div {
-   margin: 70px;
+   margin-left: 94px;
 }
